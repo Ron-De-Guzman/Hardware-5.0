@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MeowNavigation">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DASHBOARD"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="61dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orders"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="306dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low Stock"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="521dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="65dp"
+                tools:layout_editor_absoluteY="521dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inventory"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="250dp"
+                tools:layout_editor_absoluteY="306dp" />
+
+            <ImageView
+                android:id="@+id/categoryOrders"
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:padding="5dp"
+                android:src="@drawable/order"
+                android:background="@color/red"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="136dp" />
+
+
+            <ImageView
+                android:id="@+id/categoryPlumb"
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:padding="5dp"
+                android:src="@drawable/record"
+                android:background="@color/skyblue"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+
+            <ImageView
+                android:id="@+id/categoryElectricals"
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/beige"
+                android:padding="5dp"
+                android:src="@drawable/lowstock"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="230dp"
+                tools:layout_editor_absoluteY="354dp" />
+
+
+            <ImageView
+                android:id="@+id/categoryLightning"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/yellow"
+                android:padding="5dp"
+                android:src="@drawable/inventory"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="230dp"
+                tools:layout_editor_absoluteY="136dp" />
+
+            <ImageView
+                android:id="@+id/categoryHandtools"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/khaki"
+                android:padding="5dp"
+                android:src="@drawable/outofstock"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="565dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Out of Stock"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="725dp"/>
+
+            <ImageView
+                android:id="@+id/categoryGarden"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_vertical"
+                android:padding="5dp"
+                android:background="@color/ube"
+                android:src="@drawable/totalsales"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="236dp"
+                tools:layout_editor_absoluteY="565dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Sales"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="250dp"
+                tools:layout_editor_absoluteY="725dp" />
+
+            <ImageView
+                android:id="@+id/categoryFurniture"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_vertical"
+                android:padding="5dp"
+                android:src="@drawable/stockin"
+                android:background="@color/purple"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="774dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stock In and Out"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="34dp"
+                android:paddingBottom="10dp"
+                tools:layout_editor_absoluteY="939dp" />
+
+            <ImageView
+                android:id="@+id/categoryHouseWare"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_vertical"
+                android:padding="5dp"
+                android:src="@drawable/stock"
+                tools:ignore="MissingConstraints"
+                android:background="@color/pink"
+                tools:layout_editor_absoluteX="236dp"
+                tools:layout_editor_absoluteY="773dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Most Stock"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="260dp"
+                tools:layout_editor_absoluteY="939dp"
+                android:paddingBottom="10dp"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</FrameLayout>

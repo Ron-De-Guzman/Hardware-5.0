@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImagePicker">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+    <!--FirstLayer-->
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:id="@+id/pickedImage1"
+        android:background="@drawable/border"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/yellow"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"/>
+
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="130dp"
+        android:background="@drawable/baseline_move_to_inbox_24"
+        android:id="@+id/btn1"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Power Tools"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="35dp"/>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:id="@+id/pickedImage2"
+        android:background="@drawable/border"
+        android:layout_marginTop="200dp"
+        android:scaleType="centerCrop"
+        android:backgroundTint="@color/purple"
+        android:layout_marginLeft="200dp"/>
+
+    <Button
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="310dp"
+        android:background="@drawable/baseline_move_to_inbox_24"
+        android:id="@+id/btn2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lighting"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="240dp"/>
+
+        
+        
+        <!--SecondLayer-->
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:id="@+id/pickedImage3"
+            android:background="@drawable/border"
+            android:layout_marginTop="380dp"
+            android:backgroundTint="@color/yellow"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="20dp"/>
+
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="130dp"
+            android:background="@drawable/baseline_move_to_inbox_24"
+            android:id="@+id/btn3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plumbing"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="40dp"/>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:id="@+id/pickedImage4"
+            android:background="@drawable/border"
+            android:layout_marginTop="380dp"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/purple"
+            android:layout_marginLeft="200dp"/>
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/baseline_move_to_inbox_24"
+            android:id="@+id/btn4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electrical"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="230dp"/>
+
+        <!--ThirdLayer-->
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:id="@+id/pickedImage5"
+            android:background="@drawable/border"
+            android:layout_marginTop="560dp"
+            android:backgroundTint="@color/yellow"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="20dp"/>
+
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginLeft="130dp"
+            android:background="@drawable/baseline_move_to_inbox_24"
+            android:id="@+id/btn5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plumbing"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="690dp"
+            android:layout_marginLeft="40dp"/>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:id="@+id/pickedImage6"
+            android:background="@drawable/border"
+            android:layout_marginTop="560dp"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/purple"
+            android:layout_marginLeft="200dp"/>
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/baseline_move_to_inbox_24"
+            android:id="@+id/btn6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electrical"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="690dp"
+            android:layout_marginLeft="230dp"/>
+
+        <!--FourthLayer-->
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:id="@+id/pickedImage7"
+            android:background="@drawable/border"
+            android:layout_marginTop="740dp"
+            android:backgroundTint="@color/yellow"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="20dp"/>
+
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="830dp"
+            android:layout_marginLeft="130dp"
+            android:background="@drawable/baseline_move_to_inbox_24"
+            android:id="@+id/btn7"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plumbing"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="880dp"
+            android:layout_marginLeft="40dp"/>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:id="@+id/pickedImage8"
+            android:background="@drawable/border"
+            android:layout_marginTop="740dp"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/purple"
+            android:layout_marginLeft="200dp"/>
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="830dp"
+            android:layout_marginLeft="310dp"
+            android:background="@drawable/baseline_move_to_inbox_24"
+            android:id="@+id/btn8"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electrical"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="880dp"
+            android:layout_marginLeft="230dp"/>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

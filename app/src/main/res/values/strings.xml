@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hardware 6.0</string>
+    <string name="select">Select item</string>
+    <string name="product_Category">Category</string>
+    <string name="product_ID">ID</string>
+    <string name="product_Name">Product Name</string>
+    <string name="product_Measurement">Product Measurement</string>
+    <string name="product_Price">Product Price</string>
+    <string name="product_Stock_Value">Product Stock Value</string>
+    <string name="product_Description">Product Description</string>
+
+
+</resources>

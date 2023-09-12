@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".businessDescribe">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logobriones"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TrackIN Sales"
+        android:textSize="28sp"
+        android:textColor="@color/darkgreen"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Let's get started. Which of these describe you?"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="we'll help you get set up based on your business needs"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:ignore="TextSizeCheck" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <CheckBox
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="I'm just starting my business"
+            android:background="@drawable/checkbox_border"/>
+        <CheckBox
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="I'm just starting my business"
+            android:background="@drawable/checkbox_border"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/darkgreen"
+        android:text="Next"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck" />
+
+
+</LinearLayout>

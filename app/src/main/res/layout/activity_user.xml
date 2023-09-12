@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/userbg"
+    tools:context=".user"
+    tools:layout_editor_absoluteX="3dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/uploadUserProfile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:src="@drawable/baseline_person_2_24"
+            app:shapeAppearanceOverlay="@style/circular"
+            app:strokeColor="@color/darkgreen"
+            app:strokeWidth="1sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="94dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile Setting"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ramores M"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="253dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="markrusselkira@gmail.com"
+            android:textColor="@color/gray"
+            android:textSize="10dp"
+            android:textStyle="normal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="294dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account Info"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="323dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="368dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09464168823"
+            android:textColor="@color/gray"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="392dp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/contactTelephone"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:src="@drawable/telephone"
+            app:shapeAppearanceOverlay="@style/circular"
+            app:strokeColor="@color/darkgreen"
+            app:strokeWidth="1sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="368dp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/userUnpaid"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:src="@drawable/unpaids"
+            app:shapeAppearanceOverlay="@style/circular"
+            app:strokeColor="@color/darkgreen"
+            app:strokeWidth="1sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="449dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Unpaid"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="449dp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/userProcess"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:src="@drawable/process"
+            app:shapeAppearanceOverlay="@style/circular"
+            app:strokeColor="@color/darkgreen"
+            app:strokeWidth="1sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="522dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Processing"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="522dp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/userShipped"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:src="@drawable/shipped"
+            app:shapeAppearanceOverlay="@style/circular"
+            app:strokeColor="@color/darkgreen"
+            app:strokeWidth="1sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="596dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shipped"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="596dp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/userReturnItem"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            android:src="@drawable/returnitem"
+            app:shapeAppearanceOverlay="@style/circular"
+            app:strokeColor="@color/darkgreen"
+            app:strokeWidth="1sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="665dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Return Items"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="normal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="665dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
+
